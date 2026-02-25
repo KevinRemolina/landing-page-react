@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav>
-      <h2>Mi Marca</h2>
+      <h2>Kevin Remolina</h2>
     </nav>
   )
 }
