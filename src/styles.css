@@ -73,3 +73,47 @@ footer p:first-child {
   background-color: #e5e7eb;
   border-radius: 12px;
 }
+
+.services {
+  padding: 80px 40px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: #f3f4f6;
+  padding: 30px;
+  border-radius: 12px;
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card h3 {
+  margin: 15px 0;
+}
+
+.service-card p {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.service-icon {
+  font-size: 2rem;
+}
