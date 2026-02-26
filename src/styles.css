@@ -8,6 +8,7 @@
 body {
   background-color: #f9fafb;
   color: #111827;
+  overflow-x: hidden;
 }
 
 nav {
@@ -116,4 +117,71 @@ footer p:first-child {
 
 .service-icon {
   font-size: 2rem;
+}
+
+.about {
+  padding: 80px 40px;
+  background-color: #f9fafb;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  width: 350px;
+  height: 350px;
+  background-color: #e5e7eb;
+  border-radius: 12px;
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+  color: #4b5563;
+}
+
+@media (max-width: 768px) {
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-image {
+    margin-top: 40px;
+  }
+
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about {
+    padding: 60px 20px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image {
+    width: 250px;
+    height: 250px;
+  }
+
 }
