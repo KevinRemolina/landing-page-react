@@ -56,6 +56,18 @@ footer p:first-child {
   margin-bottom: 8px;
 }
 
+.contact input:focus,
+.contact textarea:focus {
+  outline: none;
+  border: 1px solid black;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.1);
+}
+
+.contact button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -178,6 +190,42 @@ footer p:first-child {
 .about-text p {
   margin-bottom: 15px;
   color: #4b5563;
+}
+
+.contact {
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contact button {
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact button:hover {
+  transform: translateY(-3px);
 }
 
 @media (max-width: 768px) {
